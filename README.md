@@ -3,7 +3,9 @@ bootstrap-toggle-btn
 by: mAmged<br>
 this plugin adding toggle buttons<br>
 binding toggle events<br><br>
-
+<a href="http://jsfiddle.net/mamged/8djpc848/">
+  <h2>Demo</h2>
+</a>
 example
 
     <div  class="btn-warning btn first" 
