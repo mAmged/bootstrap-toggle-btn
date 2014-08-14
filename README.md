@@ -1,8 +1,8 @@
 bootstrap-toggle-btn
 ====================
-by: mAmged
-this plugin adding toggle buttons
-binding toggle events
+by: mAmged<br>
+this plugin adding toggle buttons<br>
+binding toggle events<br><br>
 
 example
 
@@ -18,18 +18,18 @@ example
           data-bind=".first">Live
     </div>
 
-attributes
+attributes<br>
 
-data-toggle = "toggle-btn"
-    you must add this to the element to use the plugin
+data-toggle = "toggle-btn"<br>
+    you must add this to the element to use the plugin<br><br>
 
 
-data-values = "_innerText : _classes"
-    this is the toggled class and inner text
-    add this to swich class and inner text separated by ":"
+data-values = "_innerText : _classes"<br>
+    this is the toggled class and inner text<br>
+    add this to swich class and inner text separated by ":"<br>
     data-values = "Resume:btn btn-success first"
 
-data-bind = "_selector"
-    this value is the selector of the binded element to switch when clicking on this element
+data-bind = "_selector"<br>
+    this value is the selector of the binded element to switch when clicking on this element<br>
     data-bind=".first
     
