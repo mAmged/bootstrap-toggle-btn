@@ -1,6 +1,3 @@
-function l(m) {
-    console.log(m)
-}
 $('[data-toggle="toggle-btn"]').not('[readonly]').css('cursor', 'pointer').click(function(e) {
     /*
     if (!$(this).attr('toggled'))
@@ -12,8 +9,6 @@ $('[data-toggle="toggle-btn"]').not('[readonly]').css('cursor', 'pointer').click
 });
 var tog=false;
 function toggle(el) {
-    l('************')
-    l($(el))
     if($(el).length){
     var vals = classes = [],
         values = $(el).attr('data-values').split(':'),
@@ -23,8 +18,6 @@ function toggle(el) {
         .attr('title', values[1])
         .attr('alt', values[1])
         .attr('data-values', newValues);
-    l("$(el).attr('toggled'): "+ $(el).attr('toggled'))
-    l("$($(el).attr('data-bind')).first().attr('toggled')): " + $($(el).attr('data-bind')).first().attr('toggled'))
     if (($(el).attr('toggled') ==   $($(el).attr('data-bind')).first().attr('toggled'))&& !tog) {
         //l('true')
         //l('el: ' + $(el))
@@ -36,7 +29,6 @@ function toggle(el) {
     }
     else{
         tog = false;
-        l(false)
     }
 }
 }
