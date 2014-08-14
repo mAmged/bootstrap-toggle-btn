@@ -18,18 +18,18 @@ example
           data-bind=".first">Live
     </div>
 
-attributes<br>
+<h2>attributes</h2><br>
 
-data-toggle = "toggle-btn"<br>
+<h3>data-toggle = "toggle-btn"</h3><br>
     you must add this to the element to use the plugin<br><br>
 
 
-data-values = "_innerText : _classes"<br>
+<h3>data-values = "_innerText : _classes"</h3><br>
     this is the toggled class and inner text<br>
     add this to swich class and inner text separated by ":"<br>
     data-values = "Resume:btn btn-success first"
 
-data-bind = "_selector"<br>
+<h3>data-bind = "_selector"</h3><br>
     this value is the selector of the binded element to switch when clicking on this element<br>
     data-bind=".first
     
