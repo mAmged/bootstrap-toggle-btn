@@ -1,8 +1,10 @@
 $('[data-toggle="toggle-btn"]').not('[readonly]').css('cursor', 'pointer').click(function(e) {
     toggle(this)
 });
-var tog = false;
 
+//detect if elemnts are toggled
+var tog = false;
+//toggling function
 function toggle(el) {
     if ($(el).length) {
         var vals = classes = [],
@@ -14,9 +16,6 @@ function toggle(el) {
             .attr('alt', values[1])
             .attr('data-values', newValues);
         if (($(el).attr('toggled') == $($(el).attr('data-bind')).first().attr('toggled')) && !tog) {
-            //l('true')
-            //l('el: ' + $(el))
-            //l('first' + $($(el).attr('data-bind')).first())
             tog = true;
             toggleElAttr(el)
             toggleElAttr($($(el).attr('data-bind')).first());
@@ -26,7 +25,7 @@ function toggle(el) {
         }
     }
 }
-
+//switch attribute "toggled" = true/false
 function toggleElAttr(el) {
     if (!$(el).attr('toggled'))
         $(el).attr('toggled', true);
